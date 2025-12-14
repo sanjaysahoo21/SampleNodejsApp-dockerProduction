@@ -135,4 +135,13 @@ Notes:
 - `Dockerfile` — how the image is built.
 - `package.json` — ensure `start` & `dev` scripts exist.
 
+## Screenshots
+
+### Application running in browser
+![App Running](screenshots/local-app-running.png)
+
+### Docker container running
+![Docker Run](screenshots/docker-app-running.png)
+
+
 ---
