@@ -116,6 +116,9 @@ If you want the app to listen on a different container port, set `PORT` and map 
 docker run -d -e PORT=8081 -p 8081:8081 --name sample-node-app sample-node-app:latest
 ```
 
+## check my docker hub for node-app repository
+- https://hub.docker.com/repository/docker/sanjaysahoo2101/node-docker-app/general
+
 Notes:
 - `EXPOSE` in the Dockerfile is documentation only — Docker port mapping is controlled with `-p`.
 - Ensure the app's `server.js` uses `process.env.PORT || 5000`.
