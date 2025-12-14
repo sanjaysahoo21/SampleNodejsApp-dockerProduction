@@ -1,0 +1,27 @@
+{
+  "name": "samplenodejsapp-dockerproduction",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --legacy-watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaysahoo21/SampleNodejsApp-dockerProduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjaysahoo21/SampleNodejsApp-dockerProduction/issues"
+  },
+  "homepage": "https://github.com/sanjaysahoo21/SampleNodejsApp-dockerProduction#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
