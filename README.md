@@ -119,10 +119,6 @@ docker run -d -e PORT=8081 -p 8081:8081 --name sample-node-app sample-node-app:l
 ## check my docker hub for node-app repository
 - https://hub.docker.com/repository/docker/sanjaysahoo2101/node-docker-app/general
 
-Notes:
-- `EXPOSE` in the Dockerfile is documentation only — Docker port mapping is controlled with `-p`.
-- Ensure the app's `server.js` uses `process.env.PORT || 5000`.
-
 ## Common troubleshooting
 - App works locally but not via Docker on a different host port: confirm you mapped the host port to the container port (example: `-p 8080:5000`).
 - If `npm start` fails inside the container, ensure `package.json` contains a `start` script that runs `node server.js`.
