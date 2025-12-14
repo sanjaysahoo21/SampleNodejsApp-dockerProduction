@@ -47,7 +47,7 @@ npm start
 Open in browser:
 ```
 
-[http://localhost:3000](http://localhost:3000)
+http://localhost:5000
 
 ```
 
@@ -136,6 +136,3 @@ Notes:
 - `package.json` — ensure `start` & `dev` scripts exist.
 
 ---
-
-If you want, I can update `package.json` and the `Dockerfile` for production best-practices and then run a local Docker build to verify. Which would you like me to do next?
-```
